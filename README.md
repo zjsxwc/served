@@ -28,6 +28,8 @@ Features:
 
 ```bash
 sudo apt install libboost-all-dev
+# or
+sudo apt install libboost1.62-all-dev
 ```
 
 ```bash
