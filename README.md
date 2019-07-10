@@ -27,7 +27,11 @@ Features:
 ### Building
 
 ```bash
-$ git clone git@github.com:meltwater/served.git
+sudo apt install libboost-all-dev
+```
+
+```bash
+$ git clone https://github.com/meltwater/served.git
 $ mkdir served.build && cd served.build
 $ cmake ../served && make
 ```
@@ -40,6 +44,8 @@ $ cd served
 $ bazel build :served
 $ bazel test :served-test
 ```
+
+最后运行编译结果 `../served/bin/eg_xxx` 可执行文件。
 
 ### Getting Started
 
